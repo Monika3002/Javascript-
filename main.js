@@ -1,19 +1,19 @@
 //log a statement using console.log()
-console.log('hello ')
+console.log('hello ') //hello
 
 //variable
 let age = 25
-console.log(age)
+console.log(age)   //25
 
 const salary = 80000
-console.log(salary)
+console.log(salary)    //80000
 
 //difference  between let and constant are we required the let if we want to change the vaule 
 // while in const we can't change the value of variable
 
 let sum = 0
 sum = 23
-console.log(sum)
+console.log(sum)    //23
 
 
 //datatypes
@@ -24,25 +24,25 @@ console.log(sum)
 const string = 'Monika'
 const language = 'Javascript'
 const website = 'vscode'
-console.log(string, language, website)
+console.log(string, language, website)      //Monika Javascript vscode
 
 //number
 let mark = 89
 let percentage = 99.9
-console.log(mark, percentage)
+console.log(mark, percentage)           //89 99.9
 
 //boolean
 const isPrime = true
 let isGood = false
-console.log(isPrime, isGood)
+console.log(isPrime, isGood)            //true false
 
 //undefined
 let value
-console.log(value)
+console.log(value)              //undefined
 
 //null
 const secondValue = null
-console.log(secondValue)
+console.log(secondValue)             //null
 
 
 //primitive datatype
@@ -55,4 +55,7 @@ const person = {
     'marks': 9.9,
     'isGood': true,
 }
-console.log(person.age, person.lastName);
+console.log(person.age, person.lastName);       //19 Basene
+
+//array
+
