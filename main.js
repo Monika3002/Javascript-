@@ -171,9 +171,33 @@ for (const num of numArray) {
 
 }
 
+//function
 
+function greet(user) {
+    console.log('good night ' + user);
+}
 
+greet('monika')
+greet('Mama')
+greet('Nani')
 
+function add(a, b) {
+    return a + b
+}
+const addition = add(24, 34)
+console.log(addition);
+console.log(add(24, 34));
 
+//arrow function in another way of representing a function
+arrowSum = (c, d) => {
+    return c + d
+}
 
+const Sum = arrowSum(30, 30)
+console.log(Sum)
+
+// scope
+// block scope
+// function scope
+//gobal scope outside the block defined in every way
 
