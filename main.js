@@ -58,4 +58,10 @@ const person = {
 console.log(person.age, person.lastName);       //19 Basene
 
 //array
+const newArray = [2, 4, 5, 67, 34, 56, 7, 8, 9]
+console.log(newArray[3]);      //67
+
+//operators
+//asssignment operator,arthmetic operators, comparision operator
+//logical operator,string operator,other operator
 
