@@ -65,3 +65,5 @@ console.log(newArray[3]);      //67
 //asssignment operator,arthmetic operators, comparision operator
 //logical operator,string operator,other operator
 
+let x = 10
+let y = 5
