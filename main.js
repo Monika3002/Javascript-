@@ -67,3 +67,113 @@ console.log(newArray[3]);      //67
 
 let x = 10
 let y = 5
+console.log(x + y)                ///15
+console.log(x % y)                  //0
+
+console.log(x / y);              //2
+console.log(x > 8 && 8 > y);              //true
+
+console.log('Monika ' + 'Basene');   // Monika Basene  concatenation when used with string and adtion with number
+console.log('6' + '7');    // 67  concatenation when used with string and adtion with number
+
+
+//tertiary operator
+
+const isEven = 10 % 3 == 0 ? true : false
+console.log(isEven); //false
+
+//type conversions:two type of conversion
+//1 Implicit conversion called as type coercion 
+//2 explicit conversion 
+console.log(true + '3')    ///true3
+console.log("4" - "5");   //-1
+console.log('5' + '6');   //56
+console.log("4" * "5");  //20
+console.log("4" / "5");  //0.8
+console.log(false * '3');
+console.log('bruce' - 'wayen');  //NaN
+
+
+
+console.log(Number('5'))  //5  number
+console.log(parseFloat('8.1'));    ///6  floating number
+console.log(String(400))    ///400
+console.log(Boolean(10));  //null undefined 0 ' NaN
+
+// equality :  (==) coercion    (===)without coercion
+const var1 = 10
+const var2 = '10'
+console.log(var1 == var2)
+console.log(var1 === var2)
+
+//conditional statement
+const num = 5
+if (num > 0) {
+    console.log('Number is positive')
+}
+else if (num = 0) {
+    console.log('Number is zero');
+}
+else {
+    console.log('Number is negative')
+}
+
+
+//SWITCH
+const color = 'red'
+switch (color) {
+    case 'red':
+        console.log('Color is red');
+        break
+    case 'Orange':
+        console.log('Color is Orange');
+        break
+    case 'green':
+        console.log('Color is green');
+        break
+    case 'blue':
+        console.log('Color is blue');
+        break
+    default:
+        console.log('Not valid')
+        break
+}
+
+
+//conditional statement
+
+//for, while ,do..while,  for of loop
+console.log('for loop')
+for (let i = 1; i <= 5; i++) {
+    console.log('Iteration number ' + i);
+}
+
+console.log('do loop')
+let j = 5
+while (j <= 7) {
+    console.log('Iteration number ' + j);
+    j++
+}
+
+console.log('do..while loop')
+let k = 9
+do {
+    console.log('Iteration number ' + k);
+    k++
+}
+while (k <= 3)
+
+console.log('for..of..loop')
+// for,,of,,loop is used to iterate the collection of data
+let numArray = [2, 5, 4, 7, 8, 5, 4]
+for (const num of numArray) {
+    console.log('Iteration number ' + num);
+
+}
+
+
+
+
+
+
+
