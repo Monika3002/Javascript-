@@ -107,7 +107,7 @@ console.log(var1 == var2)
 console.log(var1 === var2)
 
 //conditional statement
-const num = 5
+const num = 6
 if (num > 0) {
     console.log('Number is positive')
 }
