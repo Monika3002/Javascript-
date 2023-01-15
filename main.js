@@ -221,27 +221,51 @@
 // // const girl = new monika();
 // // girl.printage();
 
-class monika {
-  age = 19; ///properties
+// class monika {
+//   age = 19; ///properties
 
-  printage = () => {
-    ///method
-    console.log(this.age);
-  };
-}
+//   printage = () => {
+//     ///method
+//     console.log(this.age);
+//   };
+// }
 
-class human extends monika {
-  //class
-  constructor() {
-    super();
-    //constructor class
-    this.name = "Monika"; //method
-  }
-  printName() {
-    //function
-    console.log(this.name);
-  }
-}
-const per = new human();
-per.printName();
-per.printage();
+// class human extends monika {
+//   //class
+//   constructor() {
+//     super();
+//     //constructor class
+//     this.name = "Monika"; //method
+//   }
+//   printName() {
+//     //function
+//     console.log(this.name);
+//   }
+// }
+// const per = new human();
+// per.printName();
+// per.printage();
+
+// //spread operator ...  used  to split properties or copying object
+// const number = [1, 2, 3, 4];
+// const newnumbers = [number, 5, 6];
+// console.log(newnumbers);  //[ [ 1, 2, 3, 4 ], 5, 6 ]
+// // object
+// const person = {
+//   Name: "Monika",
+// };
+// const newperson = {
+//   ...person,
+//   Age: 14,
+// };
+// console.log(newperson);
+
+// const filter = (...args) => {
+//   return args.filtre((el) => el === 1);
+// };
+// console.log(filter(1, 2, 3));
+//  d
+// destructuring
+const number = [1, 2, 3];
+[n1, , n2] = number;
+console.log(n1, n2);
